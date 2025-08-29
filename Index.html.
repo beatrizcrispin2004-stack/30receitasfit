@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>30 Receitas Fit Rápidas — Oferta</title>
+<style>
+  :root {
+    --teal:#2a9d8f; --orange:#e76f51; --sand:#f4a261; --dark:#0f5132; --muted:#6c757d;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:#222; background:#f8f9fb; }
+  .hero { background: linear-gradient(135deg, var(--teal), var(--sand)); color:white; padding:56px 20px; text-align:center; }
+  .hero h1 { margin:0 0 8px; font-size: clamp(32px, 4vw, 48px); line-height:1.15; }
+  .hero p { margin:0 auto; max-width:760px; opacity:.95; font-size: clamp(16px, 2vw, 20px); }
+  .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { background:white; border-radius:20px; padding:20px; box-shadow: 0 10px 25px rgba(0,0,0,.06); }
+  .pill { display:inline-block; background: #e8f6f3; color: var(--dark); padding: 6px 12px; border-radius: 999px; font-weight:600; }
+  .features li { margin:8px 0; }
+  .cta { text-align:center; padding:32px 20px; }
+  .btn { display:inline-block; background: var(--orange); color:white; padding:16px 28px; border-radius:14px; text-decoration:none; font-weight:700; box-shadow: 0 10px 20px rgba(231,111,81,.3); }
+  .btn:hover { filter: brightness(1.05); }
+  .price { font-size: clamp(28px, 4vw, 40px); color: var(--dark); margin:4px 0; }
+  .strike { color: #8e9; opacity:.7; text-decoration: line-through; margin-right:8px; }
+  footer { text-align:center; color:#6c757d; padding:24px; font-size:14px; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="pill">Lançamento</div>
+  <h1>30 Receitas Fit Rápidas: emagreça comendo bem e sem perder tempo</h1>
+  <p>Guia prático com receitas doces e salgadas, ingredientes acessíveis e passo a passo simples. Comece hoje a transformar sua rotina.</p>
+</section>
+
+<div class="container">
+  <div class="grid">
+    <div class="card">
+      <h2>O que você recebe</h2>
+      <ul class="features">
+        <li>📘 E-book com 30 receitas (passo a passo certinho)</li>
+        <li>📝 Bônus: Lista de Compras Saudáveis</li>
+        <li>🍴 Bônus: Cardápio de 7 Dias</li>
+        <li>🔁 Bônus: Guia de Substituições Inteligentes</li>
+        <li>⚡ Acesso imediato após a compra</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Por que funciona</h2>
+      <ul class="features">
+        <li>⏱ Receitas prontas em 15–20 min</li>
+        <li>💸 Ingredientes baratos e fáceis de achar</li>
+        <li>🍫 Doces e salgadas sem sair da dieta</li>
+        <li>🏃 Ideal para quem tem rotina corrida</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Oferta</h2>
+      <p class="price"><span class="strike">R$ 97</span> R$ 27,00</p>
+      <p>Promoção de lançamento. Pagamento seguro, acesso imediato.</p>
+      <div class="cta">
+        <a class="btn" href="https://app.monetizze.com.br/checkout/EXEMPLO-CHECKOUT" target="_blank">
+          Quero minhas receitas agora
+        </a>
+      </div>
+      <p style="color:#6c757d; font-size:14px;">⚠️ Substitua o link acima pelo seu link de checkout da Monetizze quando tiver o oficial.</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px;">
+    <h2>O que dizem os leitores</h2>
+    <p>“Receitas muito práticas! Já perdi 2 kg só organizando melhor minhas refeições.” — <em>Cliente verificado</em></p>
+    <p>“Amei o cardápio de 7 dias. Facilitou demais a semana!” — <em>Cliente verificado</em></p>
+  </div>
+
+</div>
+
+<footer>
+  Oferta por tempo limitado. © 2025 • 30 Receitas Fit
+</footer>
+
+</body>
+</html>
